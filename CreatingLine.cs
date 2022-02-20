@@ -17,16 +17,10 @@ namespace LineComparisonProgram
             int x2 = random.Next(10);
             int y2 = random.Next(10);
 
-            if (((x2 - x1) + (y2 - y1)) > 0)
-            {
-                double LineLength = Math.Sqrt((x2 - x1) + (y2 - y1));
+              double LineLength = Math.Sqrt(Math.Pow((x2 - x1),2) + (Math.Pow((y2 - y1),2)));
                 Console.WriteLine("The length of line is  " + LineLength);
 
-            }
-            else
-            {
-                Console.WriteLine("try again coordinate were invalid");
-            }
+            
         }
     }
 }
