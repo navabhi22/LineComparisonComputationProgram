@@ -8,6 +8,9 @@ namespace LineComparisonProgram
 {
     public class ToCompareTheLines
     {
+        /// <summary>
+        /// Comparison of lines
+        /// </summary>
         public static void ToCompareLines()
         {
             double Line1 = CreatingLine.CreateLine();
