@@ -8,6 +8,10 @@ namespace LineComparisonProgram
 {
     public class CheckIfLineAreEqual
     {
+        /// <summary>
+        /// Equalities the of line.
+        /// </summary>
+        /// <returns></returns>
         public static bool EqualityOfLine()
         {
             double Line1 = CreatingLine.CreateLine();
