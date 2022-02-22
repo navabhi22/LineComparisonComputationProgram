@@ -8,6 +8,10 @@ namespace LineComparisonProgram
 {
     public class CreatingLine
     {
+        /// <summary>
+        /// Creates the line.
+        /// </summary>
+        /// 
         public static void CreateLine()
         {
             Random random = new Random();
